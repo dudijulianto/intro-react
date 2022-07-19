@@ -1,6 +1,25 @@
+* {
+  background-color: #253d23;
+}
+.foto{
+  border: 5px;
+  border-style: double;
+  border-color: #282c34;
+  border-radius: 30%;
+  -webkit-border-radius: 30%;
+  -moz-border-radius: 30%;
+  -ms-border-radius: 30%;
+  -o-border-radius: 30%;
+}
+button{
+  background-color: rgb(104, 190, 240);
+  border-style:inherit;
+}
 .App {
   text-align: center;
-}
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: antiquewhite;
+  }
 
 .App-logo {
   height: 40vmin;
