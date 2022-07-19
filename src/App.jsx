@@ -15,9 +15,9 @@ function App() {
   return (
     <div className='App'>
       <h1>{ title }</h1>
-      <img src = {foto} className="foto" />
-      <h2>{name}</h2>
-      <h3>{asal}</h3>
+      <img src = { foto } className="foto" />
+      <h2>{ name }</h2>
+      <h3>{ asal }</h3>
       <button onClick={changeTitle}>Coba klik disini</button>
     </div>
 
