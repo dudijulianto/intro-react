@@ -1,10 +1,9 @@
 * {
-  background-color: #253d23;
+  background-size: 100%;
+  background-image: url(./assets/background.jpg);
 }
 .foto{
-  border: 5px;
-  border-style: double;
-  border-color: #282c34;
+  background:none;
   border-radius: 30%;
   -webkit-border-radius: 30%;
   -moz-border-radius: 30%;
@@ -12,13 +11,19 @@
   -o-border-radius: 30%;
 }
 button{
+  background: none;
   background-color: rgb(104, 190, 240);
   border-style:inherit;
 }
 .App {
+  background: none;
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: antiquewhite;
+  }
+
+  h1, h2, h3{
+    background: none;
   }
 
 .App-logo {
